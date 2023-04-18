@@ -1,0 +1,3 @@
+--GROUP BY WHERE ILE KULLANIMI
+
+SELECT KategoriID, COUNT(*) FROM Urunler WHERE KategoriID > 5 GROUP BY KategoriID
